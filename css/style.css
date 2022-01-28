@@ -1,0 +1,15 @@
+body{
+    height: 90vh;
+    width: 95;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: brown;
+    background-color: black;
+}
+
+.snakegame-title {
+    height: 60px;
+    margin: 2%;
+}
