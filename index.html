@@ -10,8 +10,17 @@
     <title>Snake Game</title>
 </head>
 <body>
-    <img src="img/snakegame.png" alt="Snake Game Title" class="snakegame-title">
-    <canvas id="snake" width="512" height="512"></canvas>
-    
+    <div class="container-jogo">
+        <img src="img/snakegame.png" alt="Snake Game Title" class="snakegame-title">
+        <canvas id="snake" width="512" height="512"></canvas>
+        
+        <!-- Controles para dispositivos móveis -->
+        <div class="controles-mobile">
+            <button class="botao-controle botao-cima" id="botao-cima">↑</button>
+            <button class="botao-controle botao-baixo" id="botao-baixo">↓</button>
+            <button class="botao-controle botao-esquerda" id="botao-esquerda">←</button>
+            <button class="botao-controle botao-direita" id="botao-direita">→</button>
+        </div>
+    </div>
 </body>
 </html>
